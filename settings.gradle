@@ -1,0 +1,3 @@
+include ':stickysdk'
+include ':app'
+rootProject.name = "TelegramStickies"
