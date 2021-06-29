@@ -1,7 +1,7 @@
 # TelegramStickies
 Sticker manipulator for Telegram (it also works for manipulating Lottie animations)
 
-![Preview Video](https://github.com/yasharpm/TelegramStickies/raw/main/preview.mov)
+https://user-images.githubusercontent.com/4597931/123779452-6ea0a980-d8e7-11eb-89bc-127260d2c4a3.mov
 
 - The SDK module is named stickysdk
 - You can see it being used in the app module
