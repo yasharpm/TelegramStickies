@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Vertical>
+        <Span size="21dp"/>
+        <Span id="image_onboarding" size="1w"/>
+        <Span size="16dp"/>
+        <Span id="text_onboarding_title" size="wrap"/>
+        <Span size="8dp"/>
+        <Span id="text_onboarding" size="wrap"/>
+        <Span size="22dp"/>
+        <Span id="button_create" size="52dp"/>
+        <Span size="22dp"/>
+    </Vertical>
+
+    <Vertical end="start@button_create">
+        <Span size="30dp"/>
+        <Span id="list_pack" size="1w"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="16dp"/>
+        <Span id="image_onboarding" size="1w"/>
+        <Span size="16dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="text_onboarding_title" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="56dp"/>
+        <Span id="text_onboarding" size="1w"/>
+        <Span size="56dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="30dp"/>
+        <Span id="button_create" size="1w"/>
+        <Span size="30dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="18dp"/>
+        <Span id="list_pack" size="1w"/>
+        <Span size="18dp"/>
+    </Horizontal>
+
+</Sequences>

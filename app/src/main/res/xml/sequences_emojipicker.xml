@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Vertical>
+        <Span id="text_title" size="wrap"/>
+        <Span size="16dp"/>
+        <Span id="list_emoji" size="1w"/>
+        <Span size="32dp"/>
+        <Span id="button_done" size="52dp"/>
+        <Span size="24dp"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="20dp"/>
+        <Span id="text_title" size="1w"/>
+        <Span size="20dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="14dp"/>
+        <Span id="list_emoji" size="1w"/>
+        <Span size="14dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="20dp"/>
+        <Span id="button_done" size="1w"/>
+        <Span size="20dp"/>
+    </Horizontal>
+
+</Sequences>

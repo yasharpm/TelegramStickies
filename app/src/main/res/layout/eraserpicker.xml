@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yashoid.sequencelayout.SequenceLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:sequences="@xml/sequences_eraserpicker">
+
+    <View
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/preview_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/text_guide"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="@color/default_text"-->
+<!--        android:text="@string/eraserpicker_guide"/>-->
+
+    <TextView
+        android:id="@+id/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/default_text"
+        android:textSize="18sp"/>
+
+    <com.yashoid.telegramstickies.app.ui.widget.SeekBar
+        android:id="@+id/seek_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:min="20"
+        app:max="150"/>
+
+    <TextView
+        android:id="@+id/text_opacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/default_text"
+        android:textSize="18sp"/>
+
+    <com.yashoid.telegramstickies.app.ui.widget.SeekBar
+        android:id="@+id/seek_opacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:min="1"
+        app:max="100"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:textColor="@color/default_text"
+        android:text="@string/eraserpicker_cancel"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/button_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:textColor="@color/default_background"
+        android:text="@string/eraserpicker_set"
+        android:gravity="center"
+        android:background="@drawable/button_background"/>
+
+
+
+</com.yashoid.sequencelayout.SequenceLayout>

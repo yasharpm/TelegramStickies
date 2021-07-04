@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Vertical>
+        <Span size="26dp"/>
+        <Span id="button_back" size="32dp"/>
+        <Span size="52dp"/>
+        <Span id="image" size="wrap"/>
+        <Span size="32dp"/>
+        <Span id="text_packname" size="wrap"/>
+        <Span size="8dp"/>
+        <Span id="edit_packname" size="52dp"/>
+        <Span size="12dp"/>
+        <Span id="text_creatorname" size="wrap"/>
+        <Span size="8dp"/>
+        <Span id="edit_creatorname" size="52dp"/>
+        <Span size="1w"/>
+        <Span id="button_next" size="52dp"/>
+        <Span size="24dp"/>
+    </Vertical>
+
+    <Vertical start="start@button_back" end="end@button_back">
+        <Span size="1w"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="24dp"/>
+        <Span id="button_back" size="32dp"/>
+        <Span size="12dp"/>
+        <Span id="text_title" size="wrap"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="28dp"/>
+        <Span id="image" size="1w"/>
+        <Span size="28dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@image" end="end@image">
+        <Span size="12dp"/>
+        <Span id="text_packname" size="wrap"/>
+    </Horizontal>
+
+    <Horizontal start="start@image" end="end@image">
+        <Span id="edit_packname" size="100%"/>
+    </Horizontal>
+
+    <Horizontal start="start@image" end="end@image">
+        <Span size="12dp"/>
+        <Span id="text_creatorname" size="wrap"/>
+    </Horizontal>
+
+    <Horizontal start="start@image" end="end@image">
+        <Span id="edit_creatorname" size="100%"/>
+    </Horizontal>
+
+    <Horizontal start="start@image" end="end@image">
+        <Span id="button_next" size="100%"/>
+    </Horizontal>
+
+</Sequences>

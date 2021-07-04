@@ -1,17 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.yashoid.sequencelayout.SequenceLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#fff">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottie"
-        android:layout_width="220dp"
-        android:layout_height="220dp"
-        android:layout_gravity="center"
-        android:background="#eee"/>
+    app:sequences="@xml/sequences_main">
 
-</FrameLayout>
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_logo"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/default_text"
+        android:textSize="24sp"
+        android:text="@string/app_name"/>
+    
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/button_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_info"/>
+
+    <View
+        android:id="@+id/tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/tabbar_background"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="14sp"
+        android:text="@string/main_static_stickers"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_animated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_animated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="14sp"
+        android:text="@string/main_animated_stickers"
+        android:elevation="8dp"/>
+
+    <View
+        android:id="@+id/button_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/button_animated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:elevation="20dp"/>
+
+</com.yashoid.sequencelayout.SequenceLayout>

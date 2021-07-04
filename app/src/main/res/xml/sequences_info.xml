@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Vertical>
+        <Span id="image" size="1w"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="20dp"/>
+        <Span id="background_yashar" size="92dp"/>
+        <Span size="12dp"/>
+        <Span id="background_diyar" size="92dp"/>
+        <Span size="36dp"/>
+        <Span id="text_version" size="wrap"/>
+        <Span size="12dp"/>
+    </Vertical>
+
+    <Vertical start="start@background_yashar" end="end@background_yashar">
+        <Span size="1w"/>
+        <Span id="image_yashar" size="60dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@background_yashar" end="end@background_yashar">
+        <Span size="1w"/>
+        <Span id="name_yashar" size="wrap"/>
+        <Span size="4dp"/>
+        <Span id="role_yashar" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@background_yashar" end="end@background_yashar">
+        <Span size="1w"/>
+        <Span id="linkedin_yashar" size="40dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@background_diyar" end="end@background_diyar">
+        <Span size="1w"/>
+        <Span id="image_diyar" size="60dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@background_diyar" end="end@background_diyar">
+        <Span size="1w"/>
+        <Span id="name_diyar" size="wrap"/>
+        <Span size="4dp"/>
+        <Span id="role_diyar" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@background_diyar" end="end@background_diyar">
+        <Span size="1w"/>
+        <Span id="linkedin_diyar" size="40dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="52dp"/>
+        <Span id="image" size="1w"/>
+        <Span size="52dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="text_title" size="100%"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="16dp"/>
+        <Span id="background_yashar" size="1w"/>
+        <Span size="16dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@background_yashar" end="end@background_yashar">
+        <Span size="12dp"/>
+        <Span id="image_yashar" size="60dp"/>
+        <Span size="8dp"/>
+        <Span id="name_yashar" size="1w"/>
+        <Span size="12dp"/>
+        <Span id="linkedin_yashar" size="40dp"/>
+        <Span size="16dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@name_yashar" end="end@name_yashar">
+        <Span id="role_yashar" size="100%"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="16dp"/>
+        <Span id="background_diyar" size="1w"/>
+        <Span size="16dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@background_diyar" end="end@background_diyar">
+        <Span size="12dp"/>
+        <Span id="image_diyar" size="60dp"/>
+        <Span size="8dp"/>
+        <Span id="name_diyar" size="1w"/>
+        <Span size="12dp"/>
+        <Span id="linkedin_diyar" size="40dp"/>
+        <Span size="16dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@name_diyar" end="end@name_diyar">
+        <Span id="role_diyar" size="100%"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="text_version" size="100%"/>
+    </Horizontal>
+
+</Sequences>

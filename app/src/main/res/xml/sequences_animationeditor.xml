@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Vertical>
+        <Span size="26dp"/>
+        <Span id="button_back" size="32dp"/>
+        <Span size="1w"/>
+        <Span id="editor" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="toolbar" size="78dp"/>
+    </Vertical>
+
+    <Vertical start="start@button_back" end="end@button_back">
+        <Span size="1w"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@button_back" end="end@button_back">
+        <Span size="1w"/>
+        <Span id="button_save" size="44dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@toolbar" end="end@toolbar">
+        <Span id="button_reset" size="100%"/>
+    </Vertical>
+
+    <Vertical start="start@toolbar" end="end@toolbar">
+        <Span id="button_color" size="100%"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="24dp"/>
+        <Span id="button_back" size="32dp"/>
+        <Span size="12dp"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="button_save" size="124dp"/>
+        <Span size="20dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="16dp"/>
+        <Span id="editor" size="1w"/>
+        <Span size="16dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="toolbar" size="100%"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="button_reset" size="1w"/>
+        <Span id="button_color" size="1w"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span size="24dp"/>
+        <Span id="button_cancel" size="32dp"/>
+    </Vertical>
+
+    <Vertical start="start@button_cancel" end="end@button_cancel">
+        <Span size="1w"/>
+        <Span id="button_done" size="40dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="24dp"/>
+        <Span id="button_cancel" size="32dp"/>
+        <Span size="1w"/>
+        <Span id="button_done" size="40dp"/>
+        <Span size="24dp"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span id="overlay" size="100%"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span id="overlay" size="100%"/>
+    </Horizontal>
+
+</Sequences>

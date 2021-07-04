@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yashoid.sequencelayout.SequenceLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:sequences="@xml/sequences_imageeditor">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_arrow_left"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:textColor="@color/default_text"
+        android:text="@string/imageeditor_title"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:textColor="@color/default_background"
+        android:text="@string/apply"
+        android:gravity="center"
+        android:background="@drawable/button_background"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_cancel"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/button_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_done"/>
+
+    <com.yashoid.telegramstickies.app.ui.imageeditor.ImageEditor
+        android:id="@+id/editor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:elevation="4dp"/>
+
+    <View
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/toolbar_background"
+        android:elevation="8dp"/>
+
+    <com.yashoid.telegramstickies.app.ui.staticstickereditor.ToolButton
+        android:id="@+id/button_crop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+
+        android:src="@drawable/ic_crop"
+        android:text="@string/tool_crop"/>
+
+    <com.yashoid.telegramstickies.app.ui.staticstickereditor.ToolButton
+        android:id="@+id/button_erase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+
+        android:src="@drawable/ic_erase"
+        android:text="@string/tool_erase"/>
+
+    <com.yashoid.telegramstickies.app.ui.staticstickereditor.ToolButton
+        android:id="@+id/button_corners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+
+        android:src="@drawable/ic_corners"
+        android:text="@string/tool_corners"/>
+
+    <FrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:elevation="8dp"/>
+
+</com.yashoid.sequencelayout.SequenceLayout>

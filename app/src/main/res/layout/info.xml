@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yashoid.sequencelayout.SequenceLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:sequences="@xml/sequences_info">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/img_developer"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="16sp"
+        android:textColor="@color/default_text"
+        android:gravity="center"
+        android:text="@string/info"/>
+
+    <View
+        android:id="@+id/background_yashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/item_background"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_yashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/img_yashar"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name_yashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="16sp"
+        android:textColor="@color/default_text"
+        android:text="Yashar PourMohamad"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/role_yashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="12sp"
+        android:textColor="@color/red"
+        android:text="Android Developer"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/linkedin_yashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_linkedin"
+        android:elevation="8dp"/>
+
+    <View
+        android:id="@+id/background_diyar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/item_background"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_diyar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/img_diyar"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name_diyar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="16sp"
+        android:textColor="@color/default_text"
+        android:text="Diyar Karimzadeh"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/role_diyar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="12sp"
+        android:textColor="@color/red"
+        android:text="User Interface Designer"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/linkedin_diyar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_linkedin"
+        android:elevation="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="10sp"
+        android:textColor="#5C5C5C"
+        android:gravity="center"
+        android:text="@string/version"/>
+
+</com.yashoid.sequencelayout.SequenceLayout>

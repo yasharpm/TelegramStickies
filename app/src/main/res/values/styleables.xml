@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ToolButton">
+        <attr name="android:src"/>
+        <attr name="android:text"/>
+    </declare-styleable>
+
+    <declare-styleable name="SeekBar">
+        <attr name="min" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="value" format="integer"/>
+    </declare-styleable>
+
+</resources>

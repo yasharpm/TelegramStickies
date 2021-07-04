@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#3B3B3B</color>
+    <color name="dark_gray">#AFAFAF</color>
+    <color name="gray">#C4C4C4</color>
+    <color name="light_gray">#F0F0F0</color>
+    <color name="red">#DB2B39</color>
+    <color name="light_red">#E63946</color>
+    <color name="blue">#3D3AD0</color>
+    <color name="pacific_blue">#009DBF</color>
+    <color name="pale_turquoise">#BBFFF7</color>
+    
+    <color name="default_background">@color/white</color>
+    <color name="default_text">@color/black</color>
+    <color name="passive_text">@color/dark_gray</color>
+    <color name="input_background">@color/light_gray</color>
+
+    <color name="sheet_handle">@color/gray</color>
+    <color name="sheet_behind">@color/black</color>
+    
+    <color name="static_theme">@color/red</color>
+    <color name="animated_theme">@color/blue</color>
+    
 </resources>

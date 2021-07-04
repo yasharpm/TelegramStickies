@@ -104,9 +104,6 @@ public class StickyThingy {
             return;
         }
 
-        pivotU -= 0.5f;
-        pivotV -= 0.5f;
-
         float targetX = pivotU * getWidth();
         float targetY = pivotV * getHeight();
 
@@ -134,6 +131,10 @@ public class StickyThingy {
 
     public void replaceColor(StickerColor what, StickerColor withWhat) {
         mColorReplacements.put(what, withWhat);
+    }
+
+    public void resetColorReplacements() {
+        mColorReplacements.clear();;
     }
 
     public void add(StickyThingy stickyThingy) throws JSONException {
@@ -180,11 +181,11 @@ public class StickyThingy {
     public JSONObject toJSON() throws JSONException {
         JSONObject json = new JSONObject(DEFAULT_BODY);
 
-        ParsedSticker.updateBody(json, Math.max(0, mWidth), Math.max(0, mHeight), Math.max(0, getTimeShift() + getScaledDuration()));
+        ParsedSticker.updateBody(json, Math.max(0, getWidth()), Math.max(0, getHeight()), Math.max(0, getTimeShift() + getScaledDuration()));
 
         double fixRadians = Math.toRadians(mRotation);
-        float rotationFixX = mWidth / 2 - (float) (getWidth() / 2 * Math.cos(fixRadians) - getHeight() / 2 * Math.sin(fixRadians));
-        float rotationFixY = mHeight / 2 - (float) (getWidth() / 2 * Math.sin(fixRadians) + getHeight() / 2 * Math.cos(fixRadians));
+        float rotationFixX = getWidth() / 2 - (float) (getWidth() / 2 * Math.cos(fixRadians) - getHeight() / 2 * Math.sin(fixRadians));
+        float rotationFixY = getHeight() / 2 - (float) (getWidth() / 2 * Math.sin(fixRadians) + getHeight() / 2 * Math.cos(fixRadians));
 
         if (mSticker != null) {
             mSticker.apply(json, mTimeShift, mDurationScale, mLeft + rotationFixX, mScaleX, mTop + rotationFixY, mScaleY, mRotation, mColorReplacements);

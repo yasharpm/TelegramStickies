@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yashoid.sequencelayout.SequenceLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:sequences="@xml/sequences_emojipicker">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:textColor="@color/default_text"
+        android:text="@string/emojipicker_title"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/button_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:textColor="@color/default_background"
+        android:text="@string/done"
+        android:gravity="center"/>
+
+</com.yashoid.sequencelayout.SequenceLayout>

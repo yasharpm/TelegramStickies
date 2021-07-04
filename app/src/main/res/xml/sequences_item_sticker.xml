@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Vertical>
+        <Span size="8dp"/>
+        <Span size="8dp"/>
+        <Span id="image_emoji" size="28dp"/>
+        <Span size="12dp"/>
+        <Span id="image_preview" size="wrap"/>
+        <Span size="16dp"/>
+        <Span size="8dp"/>
+    </Vertical>
+
+    <Vertical start="start@image_emoji" end="end@image_preview">
+        <Span size="-8dp"/>
+        <Span id="background" size="1w"/>
+        <Span size="-16dp"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="8dp"/>
+        <Span id="background" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@background" end="end@background">
+        <Span size="16dp"/>
+        <Span id="image_emoji" size="28dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@background" end="end@background">
+        <Span size="16dp"/>
+        <Span id="image_preview" size="1w"/>
+        <Span size="16dp"/>
+    </Horizontal>
+
+</Sequences>

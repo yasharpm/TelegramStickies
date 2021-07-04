@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Vertical>
+        <Span size="8dp"/>
+        <Span size="12dp"/>
+        <Span id="text_name" size="wrap"/>
+        <Span size="4dp"/>
+        <Span id="text_by" size="wrap"/>
+        <Span size="20dp"/>
+        <Span id="image_preview" size="100dp"/>
+        <Span size="20dp"/>
+        <Span size="8dp"/>
+    </Vertical>
+
+    <Vertical start="start@text_name" end="end@text_name">
+        <Span size="1w"/>
+        <Span id="button_more" size="36dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@text_by">
+        <Span id="text_creator" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="start@text_name" end="end@image_preview">
+        <Span size="-12dp"/>
+        <Span id="background" size="1w"/>
+        <Span size="-20dp"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="8dp"/>
+        <Span id="background" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@background" end="end@background">
+        <Span size="12dp"/>
+        <Span id="text_name" size="1w"/>
+        <Span size="4dp"/>
+        <Span id="button_more" size="36dp"/>
+        <Span size="4dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@text_name" end="end@background">
+        <Span id="text_by" size="wrap"/>
+        <Span size="2dp"/>
+        <Span id="text_creator" size="1w"/>
+        <Span size="12dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@background" end="end@background">
+        <Span size="1w"/>
+        <Span id="image_preview" size="100dp"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+</Sequences>

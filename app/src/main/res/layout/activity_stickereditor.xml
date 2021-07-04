@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yashoid.sequencelayout.SequenceLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:sequences="@xml/sequences_stickereditor">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_arrow_left"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:textColor="@color/default_text"
+        android:text="@string/stickereditor_title"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:textColor="@color/default_background"
+        android:text="@string/stickereditor_save"
+        android:gravity="center"
+        android:background="@drawable/button_background"/>
+
+    <com.yashoid.telegramstickies.app.ui.widget.StickerEditor
+        android:id="@+id/editor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:elevation="4dp"/>
+
+    <View
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/toolbar_background"
+        android:elevation="8dp"/>
+
+    <com.yashoid.telegramstickies.app.ui.staticstickereditor.ToolButton
+        android:id="@+id/button_draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+
+        android:src="@drawable/ic_draw"
+        android:text="@string/tool_draw"/>
+
+    <com.yashoid.telegramstickies.app.ui.staticstickereditor.ToolButton
+        android:id="@+id/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+
+        android:src="@drawable/ic_text"
+        android:text="@string/tool_text"/>
+
+    <com.yashoid.telegramstickies.app.ui.staticstickereditor.ToolButton
+        android:id="@+id/button_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+
+        android:src="@drawable/ic_photo"
+        android:text="@string/tool_photo"/>
+
+    <com.yashoid.telegramstickies.app.ui.staticstickereditor.ToolButton
+        android:id="@+id/button_sticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+
+        android:src="@drawable/ic_stickers"
+        android:text="@string/tool_stickers"/>
+
+    <FrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:elevation="8dp"/>
+
+</com.yashoid.sequencelayout.SequenceLayout>

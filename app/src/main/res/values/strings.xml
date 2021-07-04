@@ -1,3 +1,85 @@
 <resources>
-    <string name="app_name">TelegramStickies</string>
+    <string name="app_name">Stickado</string>
+
+    <string name="not_available">This feature is not available atm. Short contest time!</string>
+
+    <string name="info">Designed &amp; developed\nwith Love and some Sweat!</string>
+    <string name="version">Stickado\nVersion 1.0</string>
+
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="set">Set</string>
+    <string name="done">Done</string>
+    <string name="by">by</string>
+    <string name="options">Options</string>
+    
+    <string name="tool_draw">Draw</string>
+    <string name="tool_text">Text</string>
+    <string name="tool_photo">Photo</string>
+    <string name="tool_stickers">Stickers</string>
+    <string name="tool_crop">Crop</string>
+    <string name="tool_erase">Eraser</string>
+    <string name="tool_corners">Corners</string>
+    <string name="tool_crop_circle">Circle</string>
+    <string name="tool_crop_rect">Square</string>
+    <string name="tool_flip_vertical">Flip vertical</string>
+    <string name="tool_flip_horizontal">Flip horizontal</string>
+    <string name="tool_add_animated_sticker">Add Animated Sticker</string>
+    <string name="tool_reset">Reset</string>
+    <string name="tool_color">Color</string>
+
+    <!-- Main Activity -->
+    <string name="main_static_stickers">Static Stickers</string>
+    <string name="main_animated_stickers">Animated Stickers</string>
+
+    <!-- PackList Fragment -->
+    <string name="packlist_onboarding_title">Welcome to Stickado</string>
+    <string name="packlist_onboarding">you can make your own custom\nTelgram Stickers for free</string>
+    <string name="packlist_create_static">Create new static pack</string>
+    <string name="packlist_create_animated">Create new animated pack</string>
+
+    <!-- PackInformation Activity -->
+    <string name="packinformation_title_static">New Static Pack</string>
+    <string name="packinformation_title_animated">New Animated Pack</string>
+    <string name="packinformation_name">Pack Name</string>
+    <string name="packinformation_name_hint">Enter your pack name here</string>
+    <string name="packinformation_creator">Creator Name</string>
+    <string name="packinformation_creator_hint">Enter creator name here</string>
+    <string name="packinformation_next">@string/next</string>
+    <string name="packinformation_no_pack_name">Pack name is not set.</string>
+    <string name="packinformation_no_creator_name">Creator name is not set.</string>
+
+    <!-- StickerEditor Activity -->
+    <string name="stickereditor_title">Editor</string>
+    <string name="stickereditor_save">@string/save</string>
+
+    <!-- ImageEditor Activity -->
+    <string name="imageeditor_title">Edit Image</string>
+
+    <!-- Eraser Picker -->
+    <string name="eraserpicker_guide">Move your hand slowly on the parts you want to erase.</string>
+    <string name="eraserpicker_cancel">@string/cancel</string>
+    <string name="eraserpicker_set">@string/set</string>
+    <string name="eraserpicker_size">Size</string>
+    <string name="eraserpicker_opacity">Opacity</string>
+
+    <!-- Emoji Picker -->
+    <string name="emojipicker_title">Select emojis that indicate your sticker\'s feel:</string>
+
+    <!-- StickerPack Activity -->
+    <string name="stickerpack_new">New sticker</string>
+    <string name="stickerpack_export">Export pack to Telegram</string>
+    <string name="stickerpack_impossible_export">Telegram is not installed or the Telegram version is old.</string>
+
+    <!-- AnimationEditor Activity -->
+    <string name="animationeditor_title">Edit Animation</string>
+
+    <!-- Color Picker -->
+    <string name="colorpicker_title">Color picker</string>
+
+    <!-- Animation Color Selector -->
+    <string name="animationcolorselector_title">To change a color, click on it and select every color you want.</string>
+
 </resources>

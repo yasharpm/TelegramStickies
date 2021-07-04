@@ -36,8 +36,12 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'com.airbnb.android:lottie:3.7.0'
+
     implementation 'com.yashoid:sequencelayout:2.0.3'
+    implementation 'com.yashoid:mmv:2.1.3'
+    implementation 'com.yashoid:office:1.2.1'
 
     implementation project(':stickysdk')
 }

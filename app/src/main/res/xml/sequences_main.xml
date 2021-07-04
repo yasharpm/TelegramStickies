@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Vertical>
+        <Span size="23dp"/>
+        <Span id="button_info" size="27dp"/>
+        <Span id="content" size="1w"/>
+        <Span id="tabbar" size="78dp"/>
+        <Span size="13dp"/>
+    </Vertical>
+
+    <Vertical start="start@button_info" end="end@button_info">
+        <Span size="1w"/>
+        <Span id="image_logo" size="31dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@button_info" end="end@button_info">
+        <Span size="1w"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@tabbar" end="end@tabbar">
+        <Span size="1w"/>
+        <Span id="image_static" size="32dp"/>
+        <Span size="2dp"/>
+        <Span id="text_static" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@tabbar" end="end@tabbar">
+        <Span size="1w"/>
+        <Span id="image_animated" size="32dp"/>
+        <Span size="2dp"/>
+        <Span id="text_animated" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@tabbar" end="end@tabbar">
+        <Span id="button_static" size="100%"/>
+    </Vertical>
+
+    <Vertical start="start@tabbar" end="end@tabbar">
+        <Span id="button_animated" size="100%"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="23dp"/>
+        <Span id="image_logo" size="48dp"/>
+        <Span size="4dp"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="button_info" size="27dp"/>
+        <Span size="25dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="content" size="100%"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="15dp"/>
+        <Span id="tabbar" size="1w"/>
+        <Span size="15dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@tabbar" end="end@tabbar">
+        <Span id="button_static" size="1w"/>
+        <Span id="button_animated" size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@button_static" end="end@button_static">
+        <Span size="1w"/>
+        <Span id="image_static" size="32dp"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@button_static" end="end@button_static">
+        <Span size="1w"/>
+        <Span id="text_static" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@button_animated" end="end@button_animated">
+        <Span size="1w"/>
+        <Span id="image_animated" size="32dp"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@button_animated" end="end@button_animated">
+        <Span size="1w"/>
+        <Span id="text_animated" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span id="overlay" size="100%"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span id="overlay" size="100%"/>
+    </Horizontal>
+
+</Sequences>

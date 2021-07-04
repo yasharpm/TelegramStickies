@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Vertical>
+        <Span size="26dp"/>
+        <Span id="button_back" size="32dp"/>
+        <Span size="32dp"/>
+        <Span id="list_sticker" size="1w"/>
+        <Span size="12dp"/>
+        <Span id="button_export" size="52dp"/>
+        <Span size="16dp"/>
+        <Span id="button_options" size="52dp"/>
+        <Span size="24dp"/>
+    </Vertical>
+
+    <Vertical start="start@button_back" end="end@button_back">
+        <Span size="1w"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@button_back" end="end@button_back">
+        <Span size="1w"/>
+        <Span id="button_new" size="44dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="24dp"/>
+        <Span id="button_back" size="32dp"/>
+        <Span size="12dp"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="button_new" size="124dp"/>
+        <Span size="20dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="16dp"/>
+        <Span id="list_sticker" size="1w"/>
+        <Span size="16dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="32dp"/>
+        <Span id="button_export" size="1w"/>
+        <Span size="32dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@button_export" end="end@button_export">
+        <Span id="button_options" size="100%"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span id="overlay" size="100%"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span id="overlay" size="100%"/>
+    </Horizontal>
+
+</Sequences>
